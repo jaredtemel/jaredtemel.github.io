@@ -61,7 +61,7 @@ footer .note{margin:0; color:var(--muted); font-size:14px}
 h2{color:#111111;text-transform:uppercase;letter-spacing:.18em;font-size:12px}
 .card{background:#ffffff;border:1px solid #dcdcd4;border-radius:20px;padding:20px}
 
-body::after{content:'';position:fixed;inset:0;z-index:0;pointer-events:none;background-image:radial-gradient(#dcdcd4 1px, transparent 1px);background-size:22px 22px}
+background-image:radial-gradient(#dcdcd4 1px, transparent 1px);background-size:22px 22px;
 </style>
 </head>
 <body>
@@ -76,7 +76,7 @@ body::after{content:'';position:fixed;inset:0;z-index:0;pointer-events:none;back
 
 <section class="about" id="about">
   <h2>关于</h2>
-  <p>围绕模板注入的渲染面，我做了不少工具和笔记。 当前以博士阶段研究角色的方式推进项目。</p>
+  <p>围绕模板注入的渲染面，我做了不少工具和笔记。</p>
   <ul class="traits">
     <li>破坏性变更一律先说。</li>
     <li>版本之间的差异要能查得到。</li>
@@ -89,20 +89,12 @@ body::after{content:'';position:fixed;inset:0;z-index:0;pointer-events:none;back
   <div class="grid two">
     <article class="card">
       <h3>模板注入的渲染面的度量方式与可解释性</h3>
-      <span class="status">持续跟进</span>
     </article>
     <article class="card">
       <h3>模板注入的渲染面的判定依据与复核方式</h3>
-      <span class="status">持续跟进</span>
     </article>
     <article class="card">
       <h3>模板注入的渲染面里容易误判的情形与反例</h3>
-      <span class="status">持续跟进</span>
-    </article>
-    <article class="card">
-      <h3>在推进的问题</h3>
-      <p>（模板注入的渲染面场景）模板注入的渲染面的分数该怎么读才不会被误用？用口径一致性比对标注它能说明什么、不能说明什么。</p>
-      <span class="status">进行中</span>
     </article>
   </div>
 </section>
@@ -110,9 +102,6 @@ body::after{content:'';position:fixed;inset:0;z-index:0;pointer-events:none;back
 <section id="work">
   <h2>开源</h2>
   <ul class="repos">
-    <li><div class="name"><a href="https://github.com/jaredtemel/consistency_budgeted_evaluation_04f86179" rel="noopener">consistency_budgeted_evaluation_04f86179</a></div>
-      <div class="desc">（模板注入的渲染面场景）模板注入的渲染面的分数该怎么读才不会被误用？用口径一致性比对标注它能说明什么、不能说明什么。</div>
-    </li>
     <li><div class="name"><a href="https://github.com/jaredtemel/tmplinject" rel="noopener">tmplinject</a></div>
       <div class="desc">在同一个输入里两两比对，检测模板注入的渲染面相关的矛盾表述，把冲突双方原样并排呈现</div>
     </li>
